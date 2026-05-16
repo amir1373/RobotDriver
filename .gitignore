@@ -1,0 +1,68 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and local workspace files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# STM32CubeIDE / Eclipse generated files
+.metadata/
+.settings/
+.cproject
+.project
+.mxproject.lock
+Debug/
+Release/
+build/
+cmake-build-*/
+
+# STM32CubeProgrammer / debugger output
+*.stldr.log
+*.launch.user
+
+# IAR Embedded Workbench generated output
+EWARM/**/Obj/
+EWARM/**/Exe/
+EWARM/**/List/
+EWARM/**/BrowseInfo/
+EWARM/**/*.dep
+EWARM/**/.ninja_deps
+EWARM/**/.ninja_log
+EWARM/**/build.ninja
+EWARM/**/Backup of *.ewp
+EWARM/**/Backup of *.ewd
+
+# Compiler and linker artifacts
+*.o
+*.obj
+*.d
+*.elf
+*.axf
+*.out
+*.hex
+*.bin
+*.map
+*.lst
+*.pbi
+*.pbw
+*.pbd
+*.browse
+
+# Keep important embedded project inputs tracked:
+# - CubeMX .ioc files
+# - IAR .eww/.ewp/.ewd/.ewt project files
+# - linker scripts (.icf/.ld)
+# - startup files (.s/.S)
+# - source, headers, drivers, and middleware
